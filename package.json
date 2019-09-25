@@ -1,0 +1,28 @@
+{
+  "name": "jh_project_template",
+  "version": "1.0.0",
+  "description": "江海项目模板",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "gulp server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitee.com:wustxing/jh_project_template.git"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^6.1.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-connect": "^5.7.0",
+    "gulp-print": "^5.0.2",
+    "gulp-sass": "^4.0.2",
+    "gulp.spritesmith": "^6.10.1"
+  },
+  "author": "wustxing",
+  "license": "ISC",
+  "dependencies": {
+    "require-dir": "^1.2.0"
+  }
+}
