@@ -1,3 +1,6 @@
 body {
-  background: #ffffff;
+    background: #ffffff;
+}
+*{
+    box-sizing: border-box;
 }
