@@ -23,6 +23,7 @@
   "author": "wustxing",
   "license": "ISC",
   "dependencies": {
+    "gulp-tinypng-nokey": "^1.1.0",
     "require-dir": "^1.2.0"
   }
 }

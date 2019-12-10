@@ -1,3 +1,28 @@
+
 body{
     background: red;
+}
+
+$ul : 14px;
+$jk : black;
+
+h1{
+    font-size:$ul;
+    color:$jk;
+    @include yu;
+    @include jk(16px,#ccc)
+}
+
+
+@mixin yu{
+    font-size:14px;
+    color:black;
+}
+
+@mixin jk($kl,$qw) {
+    font-size:$kl;
+    color:$qw;
+    &{
+        
+    }
 }

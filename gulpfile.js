@@ -29,7 +29,7 @@ gulp.task('ptwatch', async function(){
 });
 gulp.task('connect', function() {
     connect.server({
-        livereload: true,
+        // livereload: true,
         port:8182,
         root: './',
     });
